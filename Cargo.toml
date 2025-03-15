@@ -1,0 +1,19 @@
+[package]
+name = "lumina"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+egui = "^0.31"
+eframe = { version = "^0.31", default-features = false, features = ["glow"] }
+egui_extras = { version = "^0.31" }
+mila = { git = "https://github.com/thane98/mila" }
+anyhow = "1.0.97"
+indexmap = { version = "2.2.2", features = ["serde"] }
+walkdir = "2.5.0"
+serde = "1.0.219"
+serde_yaml = "0.9.34"
+image = "0.25.5"
+catppuccin-egui = { version = "5.5.0", default-features = false, features = [
+    "egui31",
+] }
