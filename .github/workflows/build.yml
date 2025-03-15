@@ -29,5 +29,5 @@ jobs:
 
       - uses: actions/upload-artifact@v4
         with:
-          name: Astra-${{ runner.os }}
+          name: Lumina-${{ runner.os }}
           path: dist
