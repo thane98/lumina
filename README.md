@@ -1,5 +1,5 @@
 # Lumina - File Converter for FE9 / FE10
-I've written various scripts to do format conversions for Tellius formats while developing [Paragon](https://github.com/thane98/paragon). Lumina provides a UI for running the same scripts to make things easier.
+I've written various scripts to do format conversions for Tellius files while developing [Paragon](https://github.com/thane98/paragon). Lumina provides a UI for running the same scripts to make things easier.
 
 Supported features:
 * Pack and unpack `.cmp` archives
