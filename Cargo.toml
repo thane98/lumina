@@ -13,7 +13,7 @@ indexmap = { version = "2.2.2", features = ["serde"] }
 walkdir = "2.5.0"
 serde = "1.0.219"
 serde_yaml = "0.9.34"
-image = "0.25.5"
+image = { version = "0.25.5", default-features = false, features = ["png"] }
 catppuccin-egui = { version = "5.5.0", default-features = false, features = [
     "egui31",
 ] }
