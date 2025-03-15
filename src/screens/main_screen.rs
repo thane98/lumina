@@ -39,19 +39,14 @@ impl MainState {
                     .horizontal(|mut strip| {
                         strip.cell(|ui| {
                             ui.horizontal(|ui| {
-                                if ui
-                                    .add(Button::new("").fill(MOCHA.crust))
-                                    .on_hover_text("Open GitHub Repository")
-                                    .clicked()
-                                {
+                                if ui.add(Button::new("GitHub").fill(MOCHA.crust)).clicked() {
                                     ctx.open_url(OpenUrl {
                                         url: "https://github.com/thane98/fe9cmp".into(),
                                         new_tab: true,
                                     });
                                 }
                                 if ui
-                                    .add(Button::new("🗑").fill(MOCHA.crust))
-                                    .on_hover_text("Clear Messages")
+                                    .add(Button::new("Clear Messages").fill(MOCHA.crust))
                                     .clicked()
                                 {
                                     self.messages.clear();

@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-egui = "^0.31"
+egui = { version = "^0.31", default-features = false }
 eframe = { version = "^0.31", default-features = false, features = ["glow"] }
 egui_extras = { version = "^0.31" }
 mila = { git = "https://github.com/thane98/mila" }
