@@ -22,7 +22,6 @@ catppuccin-egui = { version = "5.5.0", default-features = false, features = [
 winresource = "0.1.20"
 
 [profile.release]
-strip = true
 lto = true
 panic = "abort"
 codegen-units = 1
